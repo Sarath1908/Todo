@@ -36,6 +36,7 @@ function Form(props){
     
     return(
         <>
+            <br/>
             <div classname = "formcontainer">
                 <label>Name: </label>
                 <input 
@@ -44,7 +45,7 @@ function Form(props){
                     value = {name}
                     onChange= {changeName}
                 />
-                <button
+                <button className = "NextButton"
                     onClick={transferValue}> NEXT </button>
                 
                 
@@ -68,13 +69,13 @@ function Form(props){
 
             </div>
             <br/>
-            <div className='addbutton'>
-                <button >
-                    Add Task
-                </button>
+        
+            <button className='addbutton'>
+                Add Task
+            </button>
                     
 
-            </div>
+            
         </>
     )
 }
