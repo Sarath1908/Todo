@@ -1,0 +1,20 @@
+.homecontainer {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: grey;
+  font-size: x-large;
+  width: 100%;
+}
+
+.header h3 {
+  color: lavender;
+}
